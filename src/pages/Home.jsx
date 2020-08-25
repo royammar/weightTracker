@@ -34,7 +34,7 @@ export default function Home() {
             datasets:[
                 {
                     label:'Weight',
-                    data:savedData.map(item=>item.weight),
+                    data:savedData.slice(Math.max(savedData.length - viewlength, 0)).map(item=>item.weight),
                     backgroundColor:['rgba(75,192,192,0.6'],
                     borderWidth:4
                 
