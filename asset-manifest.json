@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/weightTracker/static/css/main.32d8de96.chunk.css",
+    "main.js": "/weightTracker/static/js/main.86697300.chunk.js",
+    "main.js.map": "/weightTracker/static/js/main.86697300.chunk.js.map",
+    "runtime-main.js": "/weightTracker/static/js/runtime-main.4bf54cfe.js",
+    "runtime-main.js.map": "/weightTracker/static/js/runtime-main.4bf54cfe.js.map",
+    "static/js/2.65423dad.chunk.js": "/weightTracker/static/js/2.65423dad.chunk.js",
+    "static/js/2.65423dad.chunk.js.map": "/weightTracker/static/js/2.65423dad.chunk.js.map",
+    "index.html": "/weightTracker/index.html",
+    "precache-manifest.64e3f523014dc6af35c7679788781725.js": "/weightTracker/precache-manifest.64e3f523014dc6af35c7679788781725.js",
+    "service-worker.js": "/weightTracker/service-worker.js",
+    "static/css/main.32d8de96.chunk.css.map": "/weightTracker/static/css/main.32d8de96.chunk.css.map",
+    "static/js/2.65423dad.chunk.js.LICENSE.txt": "/weightTracker/static/js/2.65423dad.chunk.js.LICENSE.txt",
+    "static/media/global.scss": "/weightTracker/static/media/Roboto-Regular.11eabca2.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4bf54cfe.js",
+    "static/js/2.65423dad.chunk.js",
+    "static/css/main.32d8de96.chunk.css",
+    "static/js/main.86697300.chunk.js"
+  ]
+}
