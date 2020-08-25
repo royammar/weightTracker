@@ -30,7 +30,7 @@ export default function HistoryPreview({item,updateData,removeItem}) {
 
 
     return (
-        <div className="history-item flex">
+        <div className="history-item flex ">
             <input className="history-date" max={setMax()}  type="date" autoComplete="false" name='date' value={currDay.date} onChange={handleChange}/>
             <input className="history-weigth"  type="number" name='weight' value={currDay.weight} onChange={handleChange}/>
             <button className="history-btn save"  onClick={()=>updateData(item,currDay)}>Save</button>

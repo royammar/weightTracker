@@ -43,9 +43,9 @@ export default function History() {
     
     return (
       
-      <div className="history-container flex column  align-center">
+      <div className="history-container cards-container flex1">
       <AddNew  addNewItem={addNewItem}></AddNew>
-            <HistoryList updateData={updateData} removeItem={removeItem}  data={data}></HistoryList>
+      <HistoryList updateData={updateData} removeItem={removeItem}  data={data}></HistoryList>
         </div>
     )
 }
