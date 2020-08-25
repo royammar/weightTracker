@@ -1,26 +1,31 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { createBrowserHistory } from 'history';
+import Home from '../src/pages/Home'
+import History from '../src/pages/History'
+import './styles/global.scss';
+import NavBar from './cmps/NavBar';
+import DataContextProvider from './contexts/WeightContext';
+import Months from './pages/Months';
+import Footer from './cmps/Footer';
 
+const history = createBrowserHistory();
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <BrowserRouter history={history}>
+    <DataContextProvider>
+      <NavBar></NavBar>
+      <Switch>
+        <Route path="/history" component={History} exact></Route>
+        <Route path="/weightTracker" component={Home} exact></Route>
+        <Route path="/months" component={Months} exact></Route>
+      </Switch>
+      <Footer></Footer>
+      </DataContextProvider>
+    </BrowserRouter>
+
+  );  
 }
 
 export default App;
