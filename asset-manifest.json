@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/weightTracker/static/css/main.32d8de96.chunk.css",
-    "main.js": "/weightTracker/static/js/main.1407295f.chunk.js",
-    "main.js.map": "/weightTracker/static/js/main.1407295f.chunk.js.map",
+    "main.js": "/weightTracker/static/js/main.b97df720.chunk.js",
+    "main.js.map": "/weightTracker/static/js/main.b97df720.chunk.js.map",
     "runtime-main.js": "/weightTracker/static/js/runtime-main.4bf54cfe.js",
     "runtime-main.js.map": "/weightTracker/static/js/runtime-main.4bf54cfe.js.map",
     "static/js/2.65423dad.chunk.js": "/weightTracker/static/js/2.65423dad.chunk.js",
     "static/js/2.65423dad.chunk.js.map": "/weightTracker/static/js/2.65423dad.chunk.js.map",
     "index.html": "/weightTracker/index.html",
-    "precache-manifest.84fd3c4c1a581871f553b8d8c35cc99b.js": "/weightTracker/precache-manifest.84fd3c4c1a581871f553b8d8c35cc99b.js",
+    "precache-manifest.e5218311d9970d6d46877e5652ab5a5c.js": "/weightTracker/precache-manifest.e5218311d9970d6d46877e5652ab5a5c.js",
     "service-worker.js": "/weightTracker/service-worker.js",
     "static/css/main.32d8de96.chunk.css.map": "/weightTracker/static/css/main.32d8de96.chunk.css.map",
     "static/js/2.65423dad.chunk.js.LICENSE.txt": "/weightTracker/static/js/2.65423dad.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.4bf54cfe.js",
     "static/js/2.65423dad.chunk.js",
     "static/css/main.32d8de96.chunk.css",
-    "static/js/main.1407295f.chunk.js"
+    "static/js/main.b97df720.chunk.js"
   ]
 }

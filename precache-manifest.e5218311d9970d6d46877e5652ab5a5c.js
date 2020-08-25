@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3e1389b19074d55c8d375093b565f699",
+    "revision": "afea98eb9d80c581076b992e3406bdab",
     "url": "/weightTracker/index.html"
   },
   {
-    "revision": "ec44d4fe30cc8f4e7b2c",
+    "revision": "6f1413d52da73491c9c2",
     "url": "/weightTracker/static/css/main.32d8de96.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/weightTracker/static/js/2.65423dad.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ec44d4fe30cc8f4e7b2c",
-    "url": "/weightTracker/static/js/main.1407295f.chunk.js"
+    "revision": "6f1413d52da73491c9c2",
+    "url": "/weightTracker/static/js/main.b97df720.chunk.js"
   },
   {
     "revision": "cec443836cdf48ccffcd",
