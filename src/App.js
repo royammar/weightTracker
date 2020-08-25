@@ -18,8 +18,8 @@ function App() {
       <NavBar></NavBar>
       <Switch>
         <Route path="/history" component={History} exact></Route>
-        <Route path="/weightTracker" component={Home} exact></Route>
         <Route path="/months" component={Months} exact></Route>
+        <Route path="/" component={Home} exact></Route>
       </Switch>
       <Footer></Footer>
       </DataContextProvider>
